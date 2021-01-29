@@ -2,7 +2,7 @@
 
 Load this script to show tooltips (text and image) which are declared in elements' attribute automaticly.
 
-```
+```html
 <span data-tooltip="abc">
 <span data-tooltip-img="https://xxxx">
 ```
