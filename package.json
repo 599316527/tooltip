@@ -4,17 +4,22 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build --target lib --inline-vue --formats umd-min --name Tooltip src/entry.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "veui": "^2.0.0-beta.26",
+    "veui-theme-dls": "^2.0.0-beta.26",
     "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "less": "^3.0.4",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-plugin-veui": "^2.0.0-beta.26",
+    "less": "^3.13.1",
     "less-loader": "^5.0.0",
+    "veui-loader": "^2.0.0-beta.26",
     "vue-template-compiler": "^2.6.11"
   }
 }
