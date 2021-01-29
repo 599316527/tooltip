@@ -7,20 +7,8 @@ Load this script to show tooltips (text and image) which are declared in element
 <span data-tooltip-img="https://xxxx">
 ```
 
-## Project setup
-```
-npm install
-```
+## Usage
 
-### Compiles and hot-reloads for development
+```html
+<script src="https://storage.adeline.cc/lib/blog/Tooltip.umd.min.js" defer></script>
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
